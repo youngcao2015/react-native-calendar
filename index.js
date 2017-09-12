@@ -1,8 +1,8 @@
 /**
  * Created by cy on 2017/9/12.
  */
-const { NativeModules } = require('react-native');
-const { CalendarManager } = NativeModules;
+const {NativeModules} = require('react-native');
+const {CalendarManager} = NativeModules;
 
 
 const nativeFunc = {
@@ -47,7 +47,14 @@ const nativeFunc = {
      @return
      */
     testCallbackEventOne: function testCallbackEventOne(name, callback) {
-        return CalendarManager.testCallbackEventOne(name, callback)
+        return CalendarManager.testCallbackEventOne(name, callback);
+    },
+
+    /**
+     promise
+     */
+    testCallbackEventTwo: function testCallbackEventTwo() {
+        return CalendarManager.testCallbackEventTwo();
     },
 }
 
