@@ -1,5 +1,5 @@
 # react-native-calendar
 
-#install
-> yarn add calendar-young
-> react-native link
+# install
+> * yarn add calendar-young
+> * react-native link
