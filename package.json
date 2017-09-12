@@ -1,0 +1,22 @@
+{
+  "name": "calendar-young",
+  "version": "1.3.0",
+  "description": "calendar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngcao2015/react-native-calendar.git"
+  },
+  "keywords": [
+    "calendar"
+  ],
+  "author": "young",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/youngcao2015/react-native-calendar/issues"
+  },
+  "homepage": "https://github.com/youngcao2015/react-native-calendar#readme"
+}
